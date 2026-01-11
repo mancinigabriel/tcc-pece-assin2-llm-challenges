@@ -1,0 +1,25 @@
+# ===============================
+# GLOBAL GENERATION CONFIG
+# ===============================
+
+generation:
+  temperature: 0.0
+  top_p: 1.0
+  top_k: 0
+  max_new_tokens: 64
+  repetition_penalty: 1.0
+  do_sample: false
+  seed: 42
+
+prompting:
+  language: pt
+  system_prompt: null
+  user_prompt_template: assin2_v1
+
+execution:
+  device: auto
+  dtype: auto
+
+notes: >
+  Global decoding parameters used for all models.
+  Any model-specific override must be explicitly declared.s
