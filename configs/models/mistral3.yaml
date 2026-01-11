@@ -1,0 +1,8 @@
+model:
+  name: mistral3
+  family: mistral
+  variant: instruct
+
+overrides:
+  generation:
+    do_sample: false
