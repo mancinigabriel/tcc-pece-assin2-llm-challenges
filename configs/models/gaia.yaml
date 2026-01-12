@@ -1,0 +1,8 @@
+model:
+  name: gaia
+  family: multilingual
+  variant: instruct
+  model_id: gaia-ai/gaia
+
+overrides:
+  generation: {}
