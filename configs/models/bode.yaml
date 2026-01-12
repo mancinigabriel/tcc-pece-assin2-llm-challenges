@@ -1,10 +1,7 @@
-📄 configs/models/bode.yaml
-
 model:
   name: bode
   family: llama2
   variant: pt-br
-  quantized: true
 
 overrides:
   generation: {}
