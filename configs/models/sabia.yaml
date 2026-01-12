@@ -1,0 +1,8 @@
+model:
+  name: sabia_7b
+  family: maritaca
+  variant: instruct
+  model_id: maritaca-ai/sabia-7b
+
+overrides:
+  generation: {}
