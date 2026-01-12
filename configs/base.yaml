@@ -2,6 +2,6 @@ generation:
   temperature: 0.0
   top_p: 1.0
   top_k: 0
-  max_new_tokens: 64
+  max_new_tokens: 4
   repetition_penalty: 1.0
   do_sample: false
