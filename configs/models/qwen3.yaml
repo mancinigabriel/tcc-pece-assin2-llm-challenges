@@ -1,0 +1,7 @@
+model:
+  name: qwen
+  family: qwen
+  variant: all
+
+overrides:
+  generation: {}

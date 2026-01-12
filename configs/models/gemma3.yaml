@@ -1,0 +1,7 @@
+model:
+  name: gemma
+  family: google
+  variant: all
+
+overrides:
+  generation: {}
