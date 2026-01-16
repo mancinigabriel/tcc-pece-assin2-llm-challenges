@@ -1,0 +1,303 @@
+[
+  {
+    "premissa": "O goleiro defendeu o pênalti no final do jogo.",
+    "hipotese": "O jogador defendeu o pênalti no final do jogo.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O zagueiro marcou o atacante durante toda a partida.",
+    "hipotese": "O defensor marcou o atacante durante toda a partida.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O centroavante marcou dois gols no clássico.",
+    "hipotese": "O atacante marcou dois gols no clássico.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O lateral-direito cruzou a bola para a área.",
+    "hipotese": "O jogador cruzou a bola para a área.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O meia armador organizou as jogadas do time.",
+    "hipotese": "O meio-campista organizou as jogadas do time.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O árbitro assistente marcou o impedimento.",
+    "hipotese": "O árbitro marcou o impedimento.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O técnico interino comandou o time na rodada.",
+    "hipotese": "O técnico comandou o time na rodada.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O volante desarmou o adversário no meio-campo.",
+    "hipotese": "O jogador desarmou o adversário no meio-campo.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O ponta-esquerda avançou em velocidade pela lateral.",
+    "hipotese": "O atacante avançou em velocidade pela lateral.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O camisa 10 cobrou a falta com precisão.",
+    "hipotese": "O jogador cobrou a falta com precisão.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O juiz expulsou o zagueiro após a falta.",
+    "hipotese": "O árbitro expulsou o jogador após a falta.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O goleiro reserva entrou no segundo tempo.",
+    "hipotese": "O jogador reserva entrou no segundo tempo.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O atacante argentino marcou o gol da vitória.",
+    "hipotese": "O jogador marcou o gol da vitória.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O zagueiro central afastou a bola da área.",
+    "hipotese": "O defensor afastou a bola da área.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O lateral-esquerdo sofreu a falta perto da área.",
+    "hipotese": "O jogador sofreu a falta perto da área.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O meia ofensivo finalizou de fora da área.",
+    "hipotese": "O meio-campista finalizou de fora da área.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O centroavante cabeceou após o cruzamento.",
+    "hipotese": "O atacante cabeceou após o cruzamento.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O árbitro principal apitou o fim do jogo.",
+    "hipotese": "O árbitro apitou o fim do jogo.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O goleiro titular saiu jogando com os pés.",
+    "hipotese": "O jogador saiu jogando com os pés.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O volante marcou o meia adversário.",
+    "hipotese": "O jogador marcou o adversário.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O atacante marcou o gol após o passe.",
+    "hipotese": "O jogador marcou o gol após o passe.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O goleiro defendeu o chute forte.",
+    "hipotese": "O atleta defendeu o chute forte.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O zagueiro bloqueou a finalização.",
+    "hipotese": "O atleta bloqueou a finalização.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O centroavante disputou a bola aérea.",
+    "hipotese": "O atleta disputou a bola aérea.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O árbitro assistente levantou a bandeira.",
+    "hipotese": "O oficial levantou a bandeira.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O técnico interino definiu a escalação.",
+    "hipotese": "O profissional definiu a escalação.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O volante iniciou a jogada pelo meio.",
+    "hipotese": "O atleta iniciou a jogada pelo meio.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O ponta-direita driblou o marcador.",
+    "hipotese": "O jogador driblou o marcador.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O camisa 9 finalizou com força.",
+    "hipotese": "O atacante finalizou com força.",
+    "rotulo": "acarretamento"
+  },
+  {
+    "premissa": "O goleiro espalma a bola para escanteio.",
+    "hipotese": "O jogador espalma a bola para escanteio.",
+    "rotulo": "acarretamento"
+  },
+
+  {
+    "premissa": "O goleiro defendeu o pênalti decisivo.",
+    "hipotese": "O árbitro defendeu o pênalti decisivo.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O zagueiro marcou o atacante na área.",
+    "hipotese": "O árbitro marcou o atacante na área.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O centroavante marcou dois gols.",
+    "hipotese": "O goleiro marcou dois gols.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O lateral-direito cruzou para a área.",
+    "hipotese": "O técnico cruzou para a área.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O meia organizou o meio-campo.",
+    "hipotese": "O árbitro organizou o meio-campo.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O árbitro assistente marcou o impedimento.",
+    "hipotese": "O jogador marcou o impedimento.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O técnico interino orientou o time.",
+    "hipotese": "O atacante orientou o time.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O volante desarmou o adversário.",
+    "hipotese": "O árbitro desarmou o adversário.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O ponta-esquerda avançou pela lateral.",
+    "hipotese": "O zagueiro avançou pela lateral.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O camisa 10 cobrou a falta.",
+    "hipotese": "O técnico cobrou a falta.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O juiz expulsou o jogador.",
+    "hipotese": "O goleiro expulsou o jogador.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O goleiro reserva entrou no jogo.",
+    "hipotese": "O árbitro reserva entrou no jogo.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O atacante marcou o gol.",
+    "hipotese": "O zagueiro marcou o gol.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O zagueiro afastou a bola.",
+    "hipotese": "O goleiro afastou a bola.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O lateral sofreu a falta.",
+    "hipotese": "O árbitro sofreu a falta.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O meia finalizou de longe.",
+    "hipotese": "O técnico finalizou de longe.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O centroavante cabeceou para o gol.",
+    "hipotese": "O árbitro cabeceou para o gol.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O árbitro apitou o fim da partida.",
+    "hipotese": "O jogador apitou o fim da partida.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O goleiro saiu jogando com os pés.",
+    "hipotese": "O árbitro saiu jogando com os pés.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O volante marcou o adversário.",
+    "hipotese": "O técnico marcou o adversário.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O atacante finalizou para fora.",
+    "hipotese": "O árbitro finalizou para fora.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O goleiro defendeu o chute.",
+    "hipotese": "O zagueiro defendeu o chute.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O zagueiro bloqueou a jogada.",
+    "hipotese": "O árbitro bloqueou a jogada.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O centroavante disputou a bola.",
+    "hipotese": "O goleiro disputou a bola.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O árbitro assistente levantou a bandeira.",
+    "hipotese": "O atacante levantou a bandeira.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O técnico definiu a escalação.",
+    "hipotese": "O jogador definiu a escalação.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O volante iniciou a jogada.",
+    "hipotese": "O árbitro iniciou a jogada.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O ponta driblou o marcador.",
+    "hipotese": "O zagueiro driblou o marcador.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O camisa 9 chutou forte.",
+    "hipotese": "O árbitro chutou forte.",
+    "rotulo": "nao_acarretamento"
+  },
+  {
+    "premissa": "O goleiro espalma a bola.",
+    "hipotese": "O técnico espalma a bola.",
+    "rotulo": "nao_acarretamento"
+  }
+]

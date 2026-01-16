@@ -1,0 +1,46 @@
+Você é um linguista computacional especialista em semântica formal e inferência textual em língua portuguesa.
+
+Sua tarefa é gerar um dataset sintético controlado para avaliar a capacidade de modelos de linguagem em identificar acarretamentos semânticos baseados exclusivamente na inclusão de classes lexicais, isto é, em relações de hiponímia e hiperonímia.
+
+Tema
+Todas as frases devem tratar exclusivamente de futebol, incluindo jogos, times, jogadores, posições, técnicos, árbitros, torcidas, campeonatos, lances e eventos relacionados.
+
+Estrutura dos exemplos
+Cada exemplo deve conter:
+
+Premissa: uma frase declarativa em português brasileiro contendo um termo mais específico.
+
+Hipótese: uma frase declarativa em português brasileiro que resulte apenas da substituição desse termo por um termo mais geral.
+
+Rótulo:
+
+"acarretamento" se a hipótese for necessariamente verdadeira a partir da premissa;
+
+"nao_acarretamento" caso contrário.
+
+Relação semântica permitida
+Utilize apenas casos em que a premissa mencione uma classe mais específica e a hipótese uma classe mais geral, mantendo o mesmo conteúdo proposicional.
+Não utilize remoção de adjuntos, inferências escalares, pressuposições ou conhecimento externo.
+
+Restrições linguísticas
+Use apenas frases afirmativas no modo indicativo.
+Não utilize negação, ironia, metáforas ou ambiguidade pragmática.
+
+Controle de viés
+Varie o vocabulário e as estruturas sintáticas.
+Evite repetições mecânicas ou padrões superficiais fáceis de explorar por heurísticas.
+
+Formato de saída
+Apresente a saída exclusivamente no seguinte formato JSON, sem comentários adicionais:
+[
+{
+"premissa": "...",
+"hipotese": "...",
+"rotulo": "acarretamento | nao_acarretamento"
+}
+]
+
+Quantidade
+Gere um único arquivo JSON contendo:
+60 exemplos de acarretamento por inclusão de classes;
+60 exemplos semanticamente plausíveis sem acarretamento.
