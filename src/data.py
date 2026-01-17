@@ -29,6 +29,6 @@ def gera_df():
 def gera_df_sintetico():
   
   df = pd.read_json("tcc-pece-assin2-llm-challenges/src/dataset_acarretamento_sintetico.json")
-  df['entailment_judgment'] = df['entailment_judgment'].map({'acarretamento': 1, 'não_acarretamento': 0})
+  df['entailment_judgment'] = df['rotulo'].map({'acarretamento': 1, 'não_acarretamento': 0})
 
   return df
