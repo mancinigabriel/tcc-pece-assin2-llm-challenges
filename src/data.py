@@ -26,7 +26,7 @@ def gera_df():
   return df_assin_2
 
 
-def load_dados_acarretamento_sinteticos():
+def gera_df_sintetico():
   
   df = pd.read_json("dados_acarretamento_sinteticos.json")
   df['entailment_judgment'] = df['entailment_judgment'].map({'acarretamento': 1, 'não_acarretamento': 0})
