@@ -24,3 +24,11 @@ def gera_df():
   df_assin_2.reset_index(drop=True, inplace=True)
 
   return df_assin_2
+
+
+def load_dados_acarretamento_sinteticos():
+  
+  df = pd.read_json("dados_acarretamento_sinteticos.json")
+  df['rotulo'] = df['rotulo'].map({'acarretamento': 1, 'não_acarretamento': 0})
+
+  return df
