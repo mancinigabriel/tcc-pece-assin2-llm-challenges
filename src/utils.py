@@ -14,7 +14,7 @@ def extract_response_character(response_text):
     str: '0' ou '1' se encontrado, caso contrário, None.
   """
   # Use regex to find '0' or '1' potentially preceded by whitespace at the beginning of the string
-  match = re.search(r'^[^a-z]*([01]))', response_text)
+  match = re.search(r'^[^a-z]*([01])', response_text)
   if match:
     return int(match.group(1))
   return None
