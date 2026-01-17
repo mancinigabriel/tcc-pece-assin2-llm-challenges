@@ -25,8 +25,8 @@
     "rotulo": "acarretamento"
   },
   {
-    "premissa": "O árbitro assistente marcou o impedimento.",
-    "hipotese": "O árbitro marcou o impedimento.",
+    "premissa": "O bandeirinha marcou o impedimento.",
+    "hipotese": "Um assistente marcou o impedimento.",
     "rotulo": "acarretamento"
   },
   {
@@ -85,8 +85,8 @@
     "rotulo": "acarretamento"
   },
   {
-    "premissa": "O árbitro principal apitou o fim do jogo.",
-    "hipotese": "O árbitro apitou o fim do jogo.",
+    "premissa": "O zagueiro marcou um gol contra.",
+    "hipotese": "O defensor marcou um gol contra.",
     "rotulo": "acarretamento"
   },
   {

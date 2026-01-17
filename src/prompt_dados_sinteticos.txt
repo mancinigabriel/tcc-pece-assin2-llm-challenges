@@ -42,5 +42,5 @@ Apresente a saída exclusivamente no seguinte formato JSON, sem comentários adi
 
 Quantidade
 Gere um único arquivo JSON contendo:
-60 exemplos de acarretamento por inclusão de classes;
-60 exemplos semanticamente plausíveis sem acarretamento.
+30 exemplos de acarretamento por inclusão de classes;
+30 exemplos semanticamente plausíveis sem acarretamento.
